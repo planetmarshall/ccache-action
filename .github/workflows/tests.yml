@@ -33,7 +33,7 @@ jobs:
 
     runs-on: ubuntu-latest
     env:
-      CMAKE_VERSION: 3.30.6
+      CMAKE_VERSION: 3.31.2
       CCACHE_SLOPPINESS: pch_defines,time_macros
     steps:
       - uses: actions/checkout@v4
